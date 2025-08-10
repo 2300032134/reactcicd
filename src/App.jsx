@@ -8,7 +8,10 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://react.dev" target="_blank">
+        <a href="https://react.dev" target="_blank" rel="noreferrer">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+        <a href="https://react.dev" target="_blank" rel="noreferrer">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
@@ -22,7 +25,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the React logo to learn more
+        Click on the React logos to learn more
       </p>
     </>
   )
